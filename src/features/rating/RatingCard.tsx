@@ -13,7 +13,7 @@ import useWindowResize from '@/hooks/useWindowResize'
 
 export default function RatingCard() {
   const [startConfetti, setStartConfetti] = useState<boolean>(false)
-  const [hoveredStar, setHoveredStar] = useState<number>(0)
+  const [hoveredStar, setHoveredStar] = useState<number>(3)
 
   const { width, height } = useWindowResize()
 
