@@ -1,4 +1,3 @@
-import React from 'react'
 import RatingCard from './features/rating/RatingCard'
 
 export default function App() {
